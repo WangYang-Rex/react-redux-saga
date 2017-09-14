@@ -1,0 +1,47 @@
+
+.resize-colum-wrapper {
+  position: relative;
+}
+
+.resize-colum-block {
+  width: 10px;
+  position: absolute;
+  right: -14px;
+  top: -16px;
+  height: 75px;
+  z-index: 1;
+  cursor: ew-resize;
+}
+
+.resize-colum-block:hover
+.resize-colum-line {
+  visibility: visible;
+}
+
+.resize-colum-line {
+  visibility: hidden;
+  width: 7px;
+  height: 75px;
+  background-color: #0284ff;
+}
+
+.component-TableWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.component-TableRowResizeHandle {
+  border-right-style: solid;
+  border-right-width: 1px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 10;
+  border-color: #0284ff;
+}
+
+.tableRowResizeHandle-line {
+  cursor: ew-resize;
+  position: absolute;
+  right: -5px;
+  width: 12px;
+}
